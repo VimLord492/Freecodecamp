@@ -1,0 +1,12 @@
+Everything up-to-date
+PS C:\Users\123456\OneDrive\Documents\coding\freecodecamp> git add .
+PS C:\Users\123456\OneDrive\Documents\coding\freecodecamp> git commit "initial commit"
+error: pathspec 'initial commit' did not match any file(s) known to git
+PS C:\Users\123456\OneDrive\Documents\coding\freecodecamp> git commit -m "initial commit"
+[main d3cdb6f] initial commit
+ 1 file changed, 5 insertions(+)
+ create mode 100644 commentYourJavascriptCode.js
+PS C:\Users\123456\OneDrive\Documents\coding\freecodecamp> git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
