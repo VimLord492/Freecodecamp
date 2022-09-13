@@ -1,0 +1,11 @@
+// Setup
+function compareEquality(a, b) {
+  if (a === b) { // Change this line
+    console.log("equal")
+    return "Equal";
+  }
+  console.log("not equal")
+  return "Not Equal";
+}
+
+compareEquality(10, "10");

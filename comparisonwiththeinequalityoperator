@@ -1,0 +1,11 @@
+// Setup
+function testNotEqual(val) {
+  if (val != 99) { // Change this line
+    console.log("Not Equal")
+    return "Not Equal";
+  }
+  console.log("Equal")
+  return "Equal";
+}
+
+testNotEqual(10);
